@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Add42.sol": "Add42"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Add42.sol": {
+			"keccak256": "0x5470d88cfcc5f0c45983405124c2240f5063adec7e2919a900d535bbcf5d6cef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://616dd6cc16acf77f1e59ceacdea2b5ad16b9612fd943a8c1352769d1c368cb16",
+				"dweb:/ipfs/QmRzxpZJZqur82f8ovJYcfrwfvx6xWHMuDmVN8g7aUrCRv"
+			]
+		},
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x592eaf37c82b8464c70d285288798b586def9f78d50d1930860e190f50e1493f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b74e26036fa76146a8868fa463c65d1602b44c25c033ea0d33d5dae2eddf0be5",
+				"dweb:/ipfs/QmeHwajiwsuZup6VJXNwaxDt1d8qvtwQFbDRE3aP34MzyG"
+			]
+		}
+	},
+	"version": 1
+}
