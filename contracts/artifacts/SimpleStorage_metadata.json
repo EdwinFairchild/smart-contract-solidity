@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -51,6 +70,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_walletIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "retrieveBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
@@ -80,7 +123,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ContractFactory.sol": "SimpleStorage"
+			"contracts/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -94,12 +137,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ContractFactory.sol": {
-			"keccak256": "0x8dd3a564a4028a81c8d7a49a5f147ae62aacafc6254e64e9c6632d5aac4d04a9",
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xfbcd34f953c8c0b0a177aea3dc15c9acde5ed4a6a4515af508597f9e2e763f72",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bba446c0d4448d97a02acdd68291de74d35ad2602aa71be650f7431f08a58dd8",
-				"dweb:/ipfs/QmNcAkYhdTRLmZsuXzSScYAacHCKJtHLxUivMXYQTxpVy8"
+				"bzz-raw://e2ae9b9e2f528e3d42744d62268a7169782565e688b84ecaaa6bcca3c838cbba",
+				"dweb:/ipfs/QmVkzk8dd6o2BHwNeM44b9jFA8k9gNYn8A1BbFStggeha7"
 			]
 		}
 	},

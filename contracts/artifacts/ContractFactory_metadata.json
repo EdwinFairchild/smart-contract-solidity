@@ -13,8 +13,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "simpleStorage",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_listIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "readFromList",
 				"outputs": [
 					{
 						"internalType": "contract SimpleStorage",
@@ -23,6 +29,48 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ssList",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_listIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "storeToList",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -54,11 +102,11 @@
 	},
 	"sources": {
 		"contracts/ContractFactory.sol": {
-			"keccak256": "0xdcb93800b18f9d50c321599ad039844f72f4dac6e7002f72caba3db8a0535d55",
+			"keccak256": "0xf22078695fb9fcdf504cde5c19f9eb069d38ec408b4fe68571be852e3975f980",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b082e4d17cd0567d83bfce0c1cbef795b6230f06d97e782faf24bf18757cef8d",
-				"dweb:/ipfs/QmXpv2XEBkd8Zo33xi4BqUkyxQLx55hTdChBguQ7FY3HRs"
+				"bzz-raw://c9a89b2ada7471dfef21d30d7acafa46369bd431ef8e20835577f324f0e086c0",
+				"dweb:/ipfs/QmT1dKoB3y3Lmud2281PXKS6piHyJWY6p4JNKduc8ukw4v"
 			]
 		},
 		"contracts/SimpleStorage.sol": {
